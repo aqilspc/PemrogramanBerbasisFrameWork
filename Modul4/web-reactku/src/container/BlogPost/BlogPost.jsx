@@ -57,6 +57,9 @@ class BlogPost extends Component{
 
             .then( (response ) => {
                 this.ambilDataDariServerAPI();
+                console.log(response);
+                document.getElementById('body').value = "";
+                document.getElementById('title').value = "";
             });
     }
 
