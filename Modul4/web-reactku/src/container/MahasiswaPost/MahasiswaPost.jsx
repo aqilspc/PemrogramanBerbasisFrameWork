@@ -39,12 +39,12 @@ class MahasiswaPost extends Component{
     }
 
     handleTambahMahasiswa = (event) =>{
-        let formInsertArtikel = {...this.state.insertMahasiswa};
+        let formInsertMahasiswa = {...this.state.insertMahasiswa};
         let timestamp = new Date().getTime();
-        formInsertArtikel['id'] = timestamp;
-        formInsertArtikel[event.target.name] = event.target.value;
+        formInsertMahasiswa['id'] = timestamp;
+        formInsertMahasiswa[event.target.name] = event.target.value;
         this.setState({
-            insertMahasiswa: formInsertArtikel
+            insertMahasiswa: formInsertMahasiswa
         })
     }
 
@@ -60,9 +60,7 @@ class MahasiswaPost extends Component{
 
             .then( (response ) => {
                 this.ambilDataDariServerAPI();
-                console.log(response);
-                //document.getElementById('body').value = "";
-                //document.getElementById('title').value = "";
+                document.getElementById("formMhs").reset();
             });
     }
 
@@ -70,6 +68,7 @@ class MahasiswaPost extends Component{
     render() {
        return(
            <div className="post-artikel">
+                <form id="formMhs">
                <div className="form pb-2 border-button">
                    <div className="form-group row">
                        <label htmlFor="nim" className="col-sm-2 col-form-label">Nim</label>
@@ -105,15 +104,17 @@ class MahasiswaPost extends Component{
                        <label htmlFor="status" className="col-sm-2 col-form-label">Status</label>
                        <div className="col-sm">
                             <select className="form-control" id="status" name="status" onChange={this.handleTambahMahasiswa}>
+                                <option value="0">Pilih Status</option>
+                                <option value="aktif">Aktif</option>
                                 <option value="lulus">Lulus</option>
-                                <option value="tidak lulus">Tidak Lulus</option>
+                                <option value="cuti">Cuti</option>
                             </select>
                        </div>
                    </div>
-                   <button type="submit" className="btn btn-primary" onClick={this.handleTombolSimpan}>Simpan</button>
+                   <button type="button" className="btn btn-primary" onClick={this.handleTombolSimpan}>Simpan</button>
                </div>
-
-               <h2>Daftar Artikel</h2>
+               </form>
+               <h2>Daftar Mahasiswa</h2>
                {
                    this.state.listmahasiswa.map(mahasiswa =>{
                        return <Post 
