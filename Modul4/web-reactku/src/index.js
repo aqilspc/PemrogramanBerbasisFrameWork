@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import MahasiswaPost from './container/MahasiswaPost/MahasiswaPost';
+import BlogPost from './container/BlogPost/BlogPost';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  <MahasiswaPost />,
+  <BlogPost />,
   document.getElementById('content')
 );
 

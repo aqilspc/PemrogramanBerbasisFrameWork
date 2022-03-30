@@ -12,7 +12,6 @@ class BlogPost extends Component{
            body:""
         }
     }
-
     ambilDataDariServerAPI = () => {
         fetch(`http://localhost:3001/posts`)
         .then(response => response.json())
@@ -23,18 +22,15 @@ class BlogPost extends Component{
         })
         
     }
-
     componentDidMount() {
         this.ambilDataDariServerAPI()
     }
-
     handleHapusArtikel = (data) => {
         fetch(`http://localhost:3001/posts/${data}`, {method: 'DELETE'})
             .then(res => { 
                 this.ambilDataDariServerAPI()
             })
     }
-
     handleTambahArtikel = (event) =>{
         let formInsertArtikel = {...this.state.insertArtikel};
         let timestamp = new Date().getTime();
@@ -44,7 +40,6 @@ class BlogPost extends Component{
             insertArtikel: formInsertArtikel
         })
     }
-
     handleTombolSimpan = () => {
         fetch('http://localhost:3001/posts', {
             method:'post',
@@ -62,8 +57,6 @@ class BlogPost extends Component{
                 document.getElementById('title').value = "";
             });
     }
-
-
     render() {
        return(
            <div className="post-artikel">
@@ -85,7 +78,8 @@ class BlogPost extends Component{
                <h2>Daftar Artikel</h2>
                {
                    this.state.listArtikel.map(artikel =>{
-                       return <Post key={artikel.id} judul={artikel.title} isi={artikel.body} idArtikel={artikel.id}hapusArtikel={this.handleHapusArtikel}/>
+                       return <Post key={artikel.id} judul={artikel.title} isi={artikel.body} 
+                       idArtikel={artikel.id}hapusArtikel={this.handleHapusArtikel}/>
                    })
                }
            </div>

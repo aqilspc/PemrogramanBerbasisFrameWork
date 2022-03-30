@@ -15,7 +15,6 @@ class MahasiswaPost extends Component{
            status:""
         }
     }
-
     ambilDataDariServerAPI = () => {
         fetch(`http://localhost:3001/mahasiswa`)
         .then(response => response.json())
@@ -26,18 +25,15 @@ class MahasiswaPost extends Component{
         })
         
     }
-
     componentDidMount() {
         this.ambilDataDariServerAPI()
     }
-
     handleHapusMahasiswa = (data) => {
         fetch(`http://localhost:3001/mahasiswa/${data}`, {method: 'DELETE'})
             .then(res => { 
                 this.ambilDataDariServerAPI()
             })
     }
-
     handleTambahMahasiswa = (event) =>{
         let formInsertMahasiswa = {...this.state.insertMahasiswa};
         let timestamp = new Date().getTime();
@@ -47,7 +43,6 @@ class MahasiswaPost extends Component{
             insertMahasiswa: formInsertMahasiswa
         })
     }
-
     handleTombolSimpan = () => {
         fetch('http://localhost:3001/mahasiswa', {
             method:'post',
@@ -63,8 +58,6 @@ class MahasiswaPost extends Component{
                 document.getElementById("formMhs").reset();
             });
     }
-
-
     render() {
        return(
            <div className="post-artikel">
