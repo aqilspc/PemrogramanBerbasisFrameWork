@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "userId": 1,
+      "id": 1648669791240,
+      "title": "test1",
+      "body": "test1"
+    },
+    {
+      "userId": 1,
+      "id": 1648670239621,
+      "title": "df",
+      "body": "fd"
+    },
+    {
+      "userId": 1,
+      "id": 1648670369302,
+      "title": "xx",
+      "body": "xx"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
