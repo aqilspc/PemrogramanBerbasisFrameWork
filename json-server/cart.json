@@ -1,0 +1,36 @@
+{
+  "cart": [
+    {
+      "id": 1649919976996,
+      "image": "https://s1.bukalapak.com/img/1812001121/large/2017_05_06T18_41_50_07_00.jpg",
+      "nama": "Lemari Es Cosmic",
+      "harga": 200000,
+      "stok": 5,
+      "productId": 5
+    },
+    {
+      "id": 1649919984871,
+      "productId": 5,
+      "image": "https://s1.bukalapak.com/img/1812001121/large/2017_05_06T18_41_50_07_00.jpg",
+      "nama": "Lemari Es Cosmic",
+      "harga": 200000,
+      "qty": 1
+    },
+    {
+      "id": 1649919985884,
+      "productId": 5,
+      "image": "https://s1.bukalapak.com/img/1812001121/large/2017_05_06T18_41_50_07_00.jpg",
+      "nama": "Lemari Es Cosmic",
+      "harga": 200000,
+      "qty": 2
+    },
+    {
+      "id": 1649919986983,
+      "productId": 5,
+      "image": "https://s1.bukalapak.com/img/1812001121/large/2017_05_06T18_41_50_07_00.jpg",
+      "nama": "Lemari Es Cosmic",
+      "harga": 200000,
+      "qty": 3
+    }
+  ]
+}

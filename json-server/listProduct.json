@@ -1,0 +1,39 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "image": "https://s1.bukalapak.com/img/1812001121/large/2017_05_06T18_41_50_07_00.jpg",
+            "nama": "Lemari Es Olg",
+            "harga": 150000,
+            "stok": 5
+        },
+        {
+            "id": 2,
+            "image": "https://s1.bukalapak.com/img/1812001121/large/2017_05_06T18_41_50_07_00.jpg",
+            "nama": "Lemari Es Polytron",
+            "harga": 100000,
+            "stok": 5
+        },
+        {
+            "id": 3,
+            "image": "https://s1.bukalapak.com/img/1812001121/large/2017_05_06T18_41_50_07_00.jpg",
+            "nama": "Lemari Es Pno",
+            "harga": 125000,
+            "stok": 5
+        },
+        {
+            "id": 4,
+            "image": "https://s1.bukalapak.com/img/1812001121/large/2017_05_06T18_41_50_07_00.jpg",
+            "nama": "Lemari Es Ppj",
+            "harga": 250000,
+            "stok": 5
+        },
+        {
+            "id": 5,
+            "image": "https://s1.bukalapak.com/img/1812001121/large/2017_05_06T18_41_50_07_00.jpg",
+            "nama": "Lemari Es Cosmic",
+            "harga": 200000,
+            "stok": 5
+        }
+    ]
+}

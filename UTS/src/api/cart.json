@@ -1,0 +1,20 @@
+{
+  "cart": [
+    {
+      "id": 1649776612949,
+      "image": "https://m.media-amazon.com/images/I/81kYzmHfb+L._AC_UY327_FMwebp_QL65_.jpg",
+      "nama": "Oster Convection Countertop and Toaster Oven | French Door and Digital Controls | Stainless Steel, Extra Large",
+      "harga": 5999000,
+      "stok": 8,
+      "productId": 1
+    },
+    {
+      "id": 1649776667949,
+      "productId": 1,
+      "image": "https://m.media-amazon.com/images/I/81kYzmHfb+L._AC_UY327_FMwebp_QL65_.jpg",
+      "nama": "Oster Convection Countertop and Toaster Oven | French Door and Digital Controls | Stainless Steel, Extra Large",
+      "harga": 5999000,
+      "qty": 1
+    }
+  ]
+}

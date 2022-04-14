@@ -1,0 +1,39 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "image": "https://blogpictures.99.co/setrika-philips-1.jpg",
+            "nama": "Setrika Philips Ungu",
+            "harga": 150000,
+            "stok": 5
+        },
+        {
+            "id": 2,
+            "image": "https://static.bmdstatic.com/pk/product/medium/5e6a0240c35fd.jpg",
+            "nama": "Setrika Cosmos Hitam",
+            "harga": 100000,
+            "stok": 5
+        },
+        {
+            "id": 3,
+            "image": "https://static.bmdstatic.com/pk/product/large/5a69a943d6e33.jpg",
+            "nama": "Setrika Cosmos Merah",
+            "harga": 125000,
+            "stok": 5
+        },
+        {
+            "id": 4,
+            "image": "https://www.panasonic.com/content/dam/pim/id/id/NI/NI-P30/NI-P300T_NI-P250T/NI-P300T_NI-P250T-Product_ImageGlobal-1_id_id.png",
+            "nama": "Setrika Panasonic",
+            "harga": 250000,
+            "stok": 5
+        },
+        {
+            "id": 5,
+            "image": "https://id-test-11.slatic.net/p/3fe55ad74ea1b1491f2c890741b53a95.jpg",
+            "nama": "Setrika Miyako",
+            "harga": 200000,
+            "stok": 5
+        }
+    ]
+}
