@@ -2,11 +2,11 @@ import GetAPI from "./Get";
 import PostAPI from "./Post";
 import DeleteAPI from "./Delete";
 
-const getNewsBlog = () => GetAPI('posts?_sort-id&_order=desc');
+const getNewsBlog = () => GetAPI('mahasiswa?_sort-NIM&_order=desc');
 
-const postNewsBlog = (dataYgDiKirim) => PostAPI('posts', dataYgDiKirim);
+const postNewsBlog = (dataYgDiKirim) => PostAPI('mahasiswa', dataYgDiKirim);
 
-const deleteNewsBlog = (dataYgDihapus) => DeleteAPI('posts', dataYgDihapus);
+const deleteNewsBlog = (dataYgDihapus) => DeleteAPI('mahasiswa', dataYgDihapus);
 
 const API = {
     getNewsBlog,
