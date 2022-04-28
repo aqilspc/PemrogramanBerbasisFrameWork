@@ -2,7 +2,7 @@ import GetAPI from "./Get";
 import PostAPI from "./Post";
 import DeleteAPI from "./Delete";
 
-const getNewsBlog = () => GetAPI('mahasiswa?_sort-NIM&_order=desc');
+const getNewsBlog = () => GetAPI('mahasiswa?_sort-nim&_order=desc');
 
 const postNewsBlog = (dataYgDiKirim) => PostAPI('mahasiswa', dataYgDiKirim);
 
