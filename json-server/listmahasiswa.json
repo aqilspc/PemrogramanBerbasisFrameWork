@@ -1,13 +1,3 @@
 {
-  "mahasiswa": [
-    {
-      "id": 1648672997145,
-      "nim": "4324",
-      "nama": "sdfsdf",
-      "alamat": "sdfd",
-      "hp": "321321",
-      "angkatan": "132",
-      "status": "aktif"
-    }
-  ]
+  "mahasiswa": []
 }
